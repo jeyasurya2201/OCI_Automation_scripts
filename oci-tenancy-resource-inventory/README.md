@@ -4,6 +4,8 @@ A production-ready Python utility to export all Oracle Cloud Infrastructure (OCI
 
 This tool uses the OCI Python SDK and Resource Search API to generate a complete resource inventory including compartment mapping and tag information.
 
+---
+
 ## Features
 
 - Exports all resources across tenancy
@@ -16,6 +18,8 @@ This tool uses the OCI Python SDK and Resource Search API to generate a complete
 - Timestamped CSV output
 - JSON-safe tag export
 - Production-grade error handling
+
+---
 
 ## Architecture Overview
 
@@ -53,6 +57,8 @@ cd oci-tenancy-resource-inventory
 Install dependencies:
 
 pip install -r oci
+
+---
 
 Usage
 Run with default profile:
